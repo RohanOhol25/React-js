@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import Login from './Components/Login'
@@ -56,6 +57,23 @@ function App() {
         <Dashboard user={user} onLogout={handleLogout} />
       )}
       <ToastContainer />
+=======
+import './App.css'; 
+import Counter from './Components/Counter';
+import ToggleVisibility from './Components/Toggle';
+import InputFieldLogger from './Components/Inputfield';
+import DragAndDrop from './Components/Drag&Drop';
+import Form from './Components/FormSubmission';
+
+function App() {
+  return (
+    <div>
+      <Counter />
+      <ToggleVisibility />
+      <InputFieldLogger />
+      <DragAndDrop />
+      <Form />
+>>>>>>> cdb526f753fe3178580e4ecabe119dd6d5e21a48
     </div>
   );
 }

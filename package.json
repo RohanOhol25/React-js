@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "day6",
+=======
+  "name": "day4",
+>>>>>>> cdb526f753fe3178580e4ecabe119dd6d5e21a48
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +12,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.5",
+=======
+    "react-icons": "^5.2.1",
+    "react-scripts": "5.0.1",
+>>>>>>> cdb526f753fe3178580e4ecabe119dd6d5e21a48
     "web-vitals": "^2.1.4"
   },
   "scripts": {
